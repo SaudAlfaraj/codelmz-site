@@ -1,0 +1,45 @@
+/* الخطوط */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Poppins:wght@500;600&display=swap');
+/* الأساسيات */
+
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+ }
+
+ body {
+    background-color: #0A0B10;
+    font-family: 'IBM Plex Sans Arabic';
+ }
+
+ nav {
+     display: flex;
+     justify-content: center;
+     width: 100%; /* العرض */
+     margin-bottom: 35px; /*أي شيء أسفل الناف بار يكون بعيد عنه*/
+     padding: 15px;
+ }
+
+ .logo { /*الشعار الذي في الناف بار*/
+    position: fixed;
+    border-radius: 50%;
+    width: 80px;
+    margin-left: 90%;
+    margin-top: -13px; /* ليكون قريب من الجهة العلوية من الناف بار */
+ }
+
+ .nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: .25s ease-out;
+ }
+
+ a:hover { /* عند الإشارة على قوائم الناف بار */
+    color: #186DFD;
+ }
