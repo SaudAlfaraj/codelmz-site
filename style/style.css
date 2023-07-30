@@ -13,4 +13,25 @@ body {
    background-color: #ffffff;
    font-family: 'Rubik','IBM Plex Sans Arabic', sans-serif;
 }
+nav{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 2%;
+   border: solid;
+}
+nav a{
+   text-decoration: none;
+   color: black;
+}
+nav .nav-button{
+   padding: 6px 35px 6px 35px;
+   border-radius: 8px;
+   background-color: #186DFD;
+   color: #ffffff;
+   font-size: larger;
+   margin-right: auto;
+   margin-left: 10%;
+}
+
 
