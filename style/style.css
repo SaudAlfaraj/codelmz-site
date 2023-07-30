@@ -11,6 +11,19 @@
 
 body {
    background-color: #ffffff;
-   font-family: 'Rubik','IBM Plex Sans Arabic', sans-serif;
+   font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+nav {
+   display: flex;
+
+}
+
+nav a {
+
+}
+
+.logo {
+  width: 140px;
+  height: 130px;
+}
