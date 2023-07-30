@@ -164,3 +164,25 @@ nav{
 .service-h1 {
    color: #1e1e1e;
 }
+
+.cards{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 15px;
+}
+
+.card {
+   width: 250px;
+   border-radius: 10px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-img {
+   width: 90px;
+   height: 90px;
+}
+
+.h1-card {
+   font-size: 15px;
+   color: #186DFD;
+}
