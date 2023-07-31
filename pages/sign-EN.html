@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة التسجيل | كودلِمز</title>
+    <!-- الإستدعاءات -->
+    <!-- الأيقونات -->
+    <!-- المكتبات -->
+    <link rel="stylesheet" href="/style/sign-EN.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/img/CODELMZ.png" type="image/x-icon">
+</head>
+
+<body >
+    <nav>
+        <a class="logo" href="homepage.html"><img src="../img/CODELMZ_3.png" alt="logo" width="135"></a>
+        <a class="nav-links" href="homepage.html">Home</a>
+        <a class="nav-links" href="#">AboutUs</a>
+        <a class="nav-links" href="#">Service</a>
+        <a class="nav-links" href="contact-EN.html">ContactUs</a>
+        <div class="nav-button">
+          <a style="padding: 8px 17px 8px 17px;" class="lang" href="sign.html">ع</a>
+          <a class="sign-btn" href="sign-EN.html">Register</a>
+        </div>
+      </nav>
+    <!-- نموذج التسجيل -->
+    <form id="form-c" action="" method="get">
+        <a href="homepage.html">
+            <div class="sign-google">
+                <h1 id="google-title">Register by Google</h1>
+            </div>
+        </a>
+        <h1 id="form-head">Register</h1>
+        <label for="first-name">First Name</label>
+        <br>
+        <input id="first-name" name="first-name" type="text" required>
+        <br>
+        <label for="last-name">Last Name</label>
+        <br>
+        <input id="last-name" class="sign-form" name="last-name" type="text" required>
+        <br>
+        <label for="phonenumber">Phone Number</label>
+        
+        <input type="tel" name="phonenumber" id="phonenumber"required>
+        <br>
+        <label for="email">Email Address</label>
+        <br>
+        <input id="email-inp" class="sign-form" type="email" name="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <hr>
+        <p class="terms-main">By creating an account, you agree to the<a id="terms" href="homepage.html"> Terms and Conditions</a></p>
+        <input id="submit" type="submit" value="Register">
+        <h3>Do you have an account already?<span id="login"><a href="login-EN.html">Login</a></span></h3>
+    </form>
+
+</body>
+</html>

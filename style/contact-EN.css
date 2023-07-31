@@ -47,8 +47,7 @@ main {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-main input,
-main textarea {
+main input , main textarea {
     margin-top: 5px;
     color: #1e1e1e;
     margin-bottom: 10px;
@@ -60,7 +59,10 @@ main textarea {
     padding: 5px;
     font-size: medium;
 }
-
+main input:focus , main textarea:focus {
+    outline: #186DFD solid 2px;
+    border: none;
+}
 textarea {
     max-width: 300px;
     max-height: 175px;
@@ -87,4 +89,4 @@ body {
 
 .submit-btn:hover {
     background-color: #1b5fd3;
-}
+} 

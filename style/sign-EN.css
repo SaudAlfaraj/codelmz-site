@@ -1,0 +1,176 @@
+/* الخطوط */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600&family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+/* الأساسيات */
+
+
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+ }
+
+ body {
+    font-family: 'Rubik';
+ }
+
+ 
+/* صفحة التسجيل */
+
+.sign-google {
+    background-image: url('/img/Google.png');
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    background-size: 35px;
+    padding: 15px 25px 15px 25px;
+    margin: auto;
+    max-width: 300px;
+    background-color: white;
+    border: 1.5px solid #ccc;
+    border-radius: 15px;
+    text-decoration: none;
+    background-position-x:left 15px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+#google-title {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+    color: #0A0B10;
+    transition: .25s ease-in-out;
+}
+
+.sign-google:hover {
+    background-color: whitesmoke;
+    color: #186DFD;
+}
+
+form {
+    margin: 5% auto;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    border-radius: 15px;
+    border: 1.3px solid #ccc;
+    box-shadow: rgba(190, 190, 197, 0.2) 0px 7px 29px 0px;
+    transition: .25s ease;
+}
+
+#form-head {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #186DFD;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px !important;
+    margin-bottom: 10.2px !important;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input:focus { /* بعد الضغط على خانة الكتابة */
+outline: none; /*يختفي البوردر الذي حوالين الخانة*/
+}
+
+#first-name {
+    background-image: url('/img/user.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 45px;
+    background-position: left 15px center;
+}
+
+#last-name {
+    background-image: url('/img/user.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 45px;
+    background-position: left 15px center;
+}
+
+#phonenumber {
+    background-image: url('/img/phone-call.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 45px;
+    background-position: left 15px center;
+}
+#email-inp {
+    background-image: url('/img/email-icon.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 45px;
+    background-position: left 15px center;
+}
+
+#password {
+    background-image: url('/img/lock-icon.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 45px;
+    background-position: left 15px center;
+}
+
+#terms {
+    color: #186DFD;
+}
+.terms-main {
+    text-align: center;
+}
+
+#submit {
+    background-color: #186DFD;
+    color: white;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans Arabic';
+    font-weight: 500;
+}
+
+#submit:hover {
+    background-color: #1d63da;
+    color: #ccc;
+}
+
+#submit:focus {
+    outline: none;
+} 
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+
+#login {
+    color: #186DFD;
+    text-decoration: underline -5px;
+    transition: .25s ease-in;
+}
+
+#login:hover {
+    color: #1d63da;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  #phonenumber::placeholder {
+    padding-left: 84%;
+  }
