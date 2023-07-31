@@ -4,6 +4,12 @@
     width: 40%;
     height: 400px;
     text-align: start;
+    animation: slide .5s;
+}
+
+@keyframes slide {
+    from {transform: translateY(50%);}
+    to {transform: translateY(0%);}
 }
 
 .social {
@@ -45,6 +51,7 @@ main {
     background-color: white;
     margin-top: 5%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    animation: slide .5s;
 }
 
 main input , main textarea {
@@ -66,6 +73,8 @@ main input:focus , main textarea:focus {
 textarea {
     max-width: 300px;
     max-height: 175px;
+    min-height: 40px;
+    min-width: 300px;
 }
 
 body {
