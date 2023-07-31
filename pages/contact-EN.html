@@ -4,38 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/contact-EN.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
+    <nav>
+        <a class="logo" href="homepage.html"><img src="../img/CODELMZ_3.png" alt="logo" width="135"></a>
+        <a class="nav-links" href="homepage.html">Home</a>
+        <a class="nav-links" href="#">AboutUs</a>
+        <a class="nav-links" href="#">Service</a>
+        <a style="color: #186DFD;" class="nav-links" href="#">ContactUs</a>
+        <div class="nav-button">
+          <a style="padding: 8px 17px 8px 17px;" class="lang" href="homepage.html">ع</a>
+          <a class="sign-btn" href="sign.html">Sign Up</a>
+        </div>
+      </nav>
     <main>
         <section class="left">
-            <a class="main-content" href="#">Get in touch</a>
-            <h1 class="main-content">Have Any Project Plan In Your Mind?</h1>
-            <p class="main-content">Numquam culpa sit omnis aliquam qui ex reprehenderit ducimus tempore at! Illum non in voluptatem repellendus dolor quae nam odio delectus sed?</p>
-            <section class="social">
-                <img src="../img/mailicon.png" alt="mail icon" width="45" height="45" style="border-radius: 50%; background-color: #4942E4; padding: 13px;" >
+            <p style="color: #186DFD; font-size: 20px;" class="main-content">Welcome 👋</p>
+            <h1 class="main-content">Get In Touch</h1>
+            <p style="color: rgb(131, 121, 121);" class="main-content">Write your request and we will reply and get in touch with you as soon as possible.</p>
+            <section style="margin-bottom: 20px;" class="social">
+                <img  src="../img/mailicon.png" alt="mail icon" width="45" height="45" >
                 <section class="content2">
-                    <p>Mail us 24/7:</p>
-                    <h4>fahadsaadalzahrani@gmail.com</h4>
+                    <p>MailUs 24/7:</p>
+                    <a href="mailto:codelmz.dev@gmail.com">codelmz.dev@gmail.com</a>
                 </section>
             </section>
             <section class="social">
-                <img src="../img/phone-removebg-preview.png" alt="phone icon" width="45" height="45" style="border-radius: 50%; background-color: #4942E4; padding: 13px;" >
+                <img src="../img/phone-call-icon.png" alt="phone icon" width="45" height="45">
                 <section class="content2">
                     <p>For Urgent Help:</p>
-                    <h4>0570500840</h4>
+                    <a href="tel:+966552769336">+966 552769336</a>
                 </section>
             </section>
         </section>
         <section class="right">
-            <p>Your Name</p>
-            <input type="text"> 
-            <p>Your Email</p>
-            <input type="email"> 
-            <p>How Can We Help You?</p>
-            <textarea style="height: 100px; width: 300px; font-size: larger;"></textarea>
-            <input type="submit" value="Submit Now >>" style="border-radius: 15px; height: 40px; width: 300px; background-color: #4942E4; border: 1px; color: white; display: block; margin-top: 10px;"> 
+            <form action="mailto:contact@codelmz.com" method="post" enctype="text/plain">
+                <p>Your Name</p>
+                <input type="text" name="Name">
+                <p>Your Email</p>
+                <input type="email"> 
+                <p>Subject</p>
+                <input type="text" id="Subject" name="Subject"> 
+                <p>How Can We Help You?</p>
+                <textarea  id="message" name="Message" style="height: 100px; width: 300px; font-size: larger;"></textarea>
+                <input class="submit-btn" type="submit" value="Submit Now >>"> 
+            </form>
 
         </section>
     </main>

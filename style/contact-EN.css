@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600&family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
-.left{
+.left {
     width: 40%;
     height: 400px;
     text-align: start;
 }
-.social{
+
+.social {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     margin: 10px;
 }
-.social p{
+
+.social p {
     color: rgb(131, 121, 121);
     font-size: small;
 }
-.social h1{
 
+.social h1 {
     font-size: medium;
 }
-.main-content{
+
+
+.main-content {
     padding: 10px;
+    color: #1e1e1e;
 }
-.left h1{
+
+.left h1 {
     font-size: xx-large;
 }
-main{
-    font-family: ;
+
+
+main {
+    font-family: 'Rubik';
     height: 500px;
     width: 1000px;
     border-radius: 15px;
@@ -38,16 +46,45 @@ main{
     margin-top: 5%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-main input , main textarea{
+
+main input,
+main textarea {
     margin-top: 5px;
-    margin-bottom: 20px;
+    color: #1e1e1e;
+    margin-bottom: 10px;
     border-radius: 8px;
     height: 40px;
     width: 300px;
+    max-width: 500px;
     border: solid 2px #CCCCCC;
     padding: 5px;
     font-size: medium;
-}   
-body{
+}
+
+textarea {
+    max-width: 300px;
+    max-height: 175px;
+}
+
+body {
     background-color: whitesmoke;
+    font-family: 'Rubik';
+}
+
+.submit-btn {
+    font-family: 'Rubik';
+    font-weight: 500;
+    transition: .25s ease-in-out;
+    border-radius: 9px;
+    height: 40px;
+    width: 300px;
+    background-color: #186DFD;
+    border: 1px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #1b5fd3;
 }
