@@ -95,3 +95,38 @@ nav{
    margin: 10px auto;
    width: 100px;
 }
+
+footer {
+   width: 100%;
+}
+
+.right-footer {
+   width: 30%;
+   padding-top: 30px;
+   padding-right: 40px;
+}
+
+.right-footer img {
+   margin-bottom: -8%;
+}
+
+.right-footer p {
+   color: rgb(106, 97, 97);
+   font-weight: 500;
+}
+
+.social-footer {
+   display: flex;
+   justify-content: center;
+}
+
+.social-footer a {
+   padding: 1px;
+   background-color: red;
+}  
+
+#social-ftr {
+   font-size: 11px;
+   color: rgba(92, 84, 84, 0.562);
+   padding: 1px;
+}
