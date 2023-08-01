@@ -12,25 +12,27 @@
 ## Member:
 
 ### Fahad Saad
-- Made The ReadMe File
-- Created The Footer
 - Made The English Register Page
-- Made The English Login Page
-- Made The Arabic Contact Page
 - Made The English Contact Page
+- Made The Arabic Contact Page
+- Made The English Login Page
+- Made The ReadMe File
 - Made The Step 1 Page
 - Made The Step 2 Page
 - Made The Step 3 Page
-- Made The Step 4 Page 
+- Made The Step 4 Page
+- Created The Footer
 ### Saud Alfaraj
-- Made The English Home Page
-- Made The Arabic Home Page
-- Made The Arabic Register Page
-- Made The Arabic Login Page
-- Made The Arabic About-Us page
+- Made The English Terms & Condition
+- Made The Arabic Terms & Condition
+- Made The English Services Page
 - Made The English About-Us page
-- Made The Services Page
-- Made The Terms & Condition
+- Made The Arabic About-Us page
+- Made The Arabic Services Page
+- Made The Arabic Register Page
+- Made The English Home Page
+- Made The Arabic Login Page
+- Made The Arabic Home Page
 - Created The Navagtion Bar
 ### Abdullah 
 - Internet Supplier
