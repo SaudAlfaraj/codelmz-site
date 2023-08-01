@@ -3,16 +3,15 @@
 
 ## In Codelmz we offer three services for now:
 
-- web design:
+- Web Design: We search for problems and solve them, if they are discovered they will be corrected by our programming team.
 
-- web
+- Web Development: 
 
-- w
-
+- Researching and Problem Solving: 
 ## Member:
 ### Saud Alfaraj
-- Made The English Terms & Condition
-- Made The Arabic Terms & Condition
+- Made The English Terms & Conditions
+- Made The Arabic Terms & Conditions
 - Made The English Services Page
 - Made The English About-Us page
 - Made The Arabic About-Us page
@@ -21,7 +20,7 @@
 - Made The English Home Page
 - Made The Arabic Login Page
 - Made The Arabic Home Page
-- Created The Navagtion Bar
+- Created The Navigation Bar
 ### Fahad Saad
 - Made The English Register Page
 - Made The English Contact Page
