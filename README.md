@@ -10,15 +10,6 @@
 - w
 
 ## Member:
-
-### Fahad Saad
-- Made The English Register Page
-- Made The English Contact Page
-- Made The Arabic Contact Page
-- Made The English Login Page
-- Made The Steps System Pages
-- Made The ReadMe File
-- Created The Footer
 ### Saud Alfaraj
 - Made The English Terms & Condition
 - Made The Arabic Terms & Condition
@@ -31,5 +22,13 @@
 - Made The Arabic Login Page
 - Made The Arabic Home Page
 - Created The Navagtion Bar
+### Fahad Saad
+- Made The English Register Page
+- Made The English Contact Page
+- Made The Arabic Contact Page
+- Made The English Login Page
+- Made The Steps System Pages
+- Made The ReadMe File
+- Created The Footer
 ### Abdullah 
 - Internet Supplier
