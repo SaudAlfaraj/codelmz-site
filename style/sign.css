@@ -83,6 +83,7 @@ input {
     height: 40px;
     margin-top: 10px !important;
     margin-bottom: 10.2px !important;
+    font-family: 'Rubik';
 }
 
 label {
@@ -90,7 +91,7 @@ label {
 }
 
 input:focus { /* بعد الضغط على خانة الكتابة */
-outline: none; /*يختفي البوردر الذي حوالين الخانة*/
+outline: 2px solid #186DFD; /*يختفي البوردر الذي حوالين الخانة*/
 }
 
 #first-name {
@@ -115,6 +116,10 @@ outline: none; /*يختفي البوردر الذي حوالين الخانة*/
     background-size: 15px;
     padding-right: 45px;
     background-position: right 15px center;
+}
+
+#phonenumber::placeholder {
+    text-align: right;
 }
 #email-inp {
     background-image: url('/img/email-icon.png');
@@ -177,7 +182,4 @@ hr {
     border: 1px solid #ccc;
     margin-top: 15px;
     margin-bottom: 25px;
-  }
-  #phonenumber::placeholder {
-    padding-right: 84%;
   }

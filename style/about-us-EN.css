@@ -22,9 +22,9 @@ body {
 
  .about-text {
     transition: .40s ease-in-out;
-    margin-right: 10%;
+    margin-left: 10%;
     animation: refresh 0.5s;
-    text-align: right;
+    text-align: left;
  }
  @keyframes refresh {
     from {
@@ -56,26 +56,27 @@ body {
  .about-img {
     width:40%;
     margin-left: 5%;
-    margin-right: auto;
+    margin-left: auto;
+    
  }
+.dev-btn {
+   display: flex;
+   justify-content: center;
+   padding: 10px 35px 10px 35px;
+   width: 80%;
+   color: white;
+   background-color: #186DFD;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: 600;
+   margin-top: 10px;
+   transition: .25s ease-in-out;
+}
 
- .dev-btn {
-    display: flex;
-    justify-content: center;
-    padding: 10px 35px 10px 35px;
-    color: white;
-    background-color: #186DFD;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 10px;
-    transition: .20s ease-in-out;
- }
-
- .dev-btn:hover {
-    background-color: #1b5fd3;
-    color: whitesmoke;
- }
+.dev-btn:hover {
+   background-color: #1b5fd3;
+   color: whitesmoke;
+}
 
  .developers {
     margin-top: 10%;
@@ -125,7 +126,7 @@ body {
  }
 
  #saud p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     margin-top: 5%;
  }
