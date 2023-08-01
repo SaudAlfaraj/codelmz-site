@@ -3,11 +3,12 @@
 
 ## In Codelmz we offer three services for now:
 
-- Web Design: We search for problems and solve them, if they are discovered they will be corrected by our programming team.
+- Web Design:  We create your website according to your requirements and apply them precisely and professionally with the help of our skilled programming team.
 
-- Web Development: 
-
-- Researching and Problem Solving: 
+- Web Development: You may have wondered about the difference between website design and development. While design pertains to creating a new website, development refers to making changes to an existing one. Our service provides website modification and development solutions
+  
+- Researching and Problem Solving: We search for problems and solve them, if they are discovered they will be corrected by our programming team.
+  
 ## Member:
 ### Saud Alfaraj
 - Made The English Terms & Conditions
