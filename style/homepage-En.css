@@ -1,0 +1,170 @@
+/* الخطوط */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600&family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+* {
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   text-decoration: none;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 500;
+ }
+
+ .main {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.main-text {
+    transition: .40s ease-in-out;
+    margin-left: 10%;
+    animation: refresh 0.5s;
+ }
+ @keyframes refresh {
+    from {
+        transform: translateX(50%);
+    }
+    to { 
+        transform: translateX(0%);
+        
+    }
+  }
+ .right-img {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+ }
+ 
+ .main-p {
+    border-radius: 10px;
+    padding: 8px 0;
+    width: 72%;
+    text-align: center;
+    background-color: #186cfde5;
+    color: white;
+    font-size: 15px;
+ }
+ 
+ .main-p2 {
+    color: rgb(131, 121, 121);
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ .main-h1 {
+    color: #1e1e1e;
+    font-size: 30px;
+    margin-bottom: 5%;
+ }
+ 
+ .main-btn1 {
+    padding: 10px 40px 10px 40px;
+    background-color: #186DFD;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .20s ease-in-out;
+ }
+ 
+ .main-btn1:hover {
+    background-color: #1b5fd3;
+ }
+ 
+ .main-btn2 {
+    padding: 8px 38px 8px 38px;
+    border: 2px solid #186DFD;
+    color: #186DFD;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .20s ease-in-out;
+ }
+ 
+ .main-btn2:hover {
+    background-color: #186DFD;
+    color: white;
+ }
+ 
+ .main-btns {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: leftx;
+    gap: 1%;
+ }
+ 
+ /* خدماتنا */
+ 
+ .services {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: whitesmoke;
+ }
+ 
+ .service-p {
+    color: #186DFD;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 15px;
+ }
+ .service-h1 {
+    color: #1e1e1e;
+    font-size: 28px;
+ }
+ 
+ .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    }
+ 
+ .card {
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    margin-top: 4%;
+    border-radius: 10px;
+    height: 28vw;
+    min-height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .25s ease-in-out;
+ }
+ 
+ .card:hover {
+    transform: scale(1.09);
+ }
+ .card-img {
+    height: 180px;
+ }
+
+ .h1-card {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5%;
+    color: #1e1e1e;
+ }
+ 
+ .p-card {
+    color: rgb(131, 121, 121);
+    margin-bottom: 8%;
+    margin-top: 5%;
+ }
+
+ .card-btn {
+    padding: 8px 50px 8px 50px;
+    border-radius: 10px;
+    background-color: #186DFD;
+    color: white;
+    transition: .25s ease-in-out;
+ }
+
+ .card-btn:hover {
+    background-color: #1b5fd3;
+ }
