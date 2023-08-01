@@ -1,7 +1,7 @@
 # Codelmz
 #### Codelmz is a team of experienced web designers, developers, and problem solvers who specialize in providing the highest-quality solutions to Hard challenges. Whether you need a new website designed from the start, an existing website fixed and updated, or help solving a problem related to your website, we are here to help you. In the future, we hope to make our website usable for all devices and make our website into a web app and let's hope that this is just the beginning.
 
-## In Codelmz we offer three services for now:
+## Codelmz Offer Three Services For You:
 
 - Web Design:  We can design a custom website that reflects your brand, values, and vision. We use the latest design trends, tools, and techniques to create a website that is visually Relaxing, easy to navigate, and optimized for user usage.
   
