@@ -1,13 +1,13 @@
 # Codelmz
-#### Welcome to Codelmz! We are a team of experienced web developers who specialize in creating, updating, and fixing websites. Our goal is to provide the highest-quality services that meet the needs of our clients and help them achieve their online goals. In the future, we hope to make our website usable for all devices and make our website into a web app and let's hope that this is just the beginning.
+#### Codelmz is a team of experienced web designers, developers, and problem solvers who specialize in providing the highest-quality solutions to Hard challenges. Whether you need a new website designed from the start, an existing website fixed and updated, or help solving a problem related to your website, we are here to help you. In the future, we hope to make our website usable for all devices and make our website into a web app and let's hope that this is just the beginning.
 
 ## In Codelmz we offer three services for now:
 
-- Web Design:  We create your website according to your requirements and apply them precisely and professionally with the help of our skilled programming team.
-
+- Web Design:  We can design a custom website that reflects your brand, values, and vision. We use the latest design trends, tools, and techniques to create a website that is visually Relaxing, easy to navigate, and optimized for user usage.
+  
 - Web Development: You may have wondered about the difference between website design and development. While design pertains to creating a new website, development refers to making changes to an existing one. Our service provides website modification and development solutions
   
-- Researching and Problem Solving: We search for problems and solve them, if they are discovered they will be corrected by our programming team.
+- Researching and Problem Solving: We can help you Find and solve complex problems, using a structured approach. We work closely with our clients to understand their challenges and Problems customized solutions that meet their specific needs.
   
 ## Member:
 ### Saud Alfaraj
