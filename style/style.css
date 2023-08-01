@@ -130,3 +130,53 @@ footer {
    color: rgba(92, 84, 84, 0.562);
    padding: 1px;
 }
+footer{
+   background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 50px;
+   border-radius: 15px 15px 0px 0px;
+}
+footer p{
+   color: #CCCCCC;
+   font-size: 16px;
+   font-weight: 800;
+}
+footer a{
+   color: #CCCCCC;
+}
+.first{
+   text-align: start;
+   height: 400px;
+   width: 400px;
+}
+.socials-footer{
+   margin-top: 10px;
+}
+.socials-footer img{
+   border: solid 2px black;
+   border-radius: 50%;
+   padding: 5px;
+   margin-top: 20px;
+}
+.second{
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   font-size: larger;
+}
+.second a{
+   margin-top: 10px;
+}
+.logoer{
+   margin-bottom: -60px;
+   margin-left: -22px;
+}
+footer a{
+   font-weight: 900;
+}
+footer a:hover{
+   color: #186bfb;
+}
