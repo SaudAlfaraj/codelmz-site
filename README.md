@@ -16,11 +16,8 @@
 - Made The English Contact Page
 - Made The Arabic Contact Page
 - Made The English Login Page
+- Made The Steps System Pages
 - Made The ReadMe File
-- Made The Step 1 Page
-- Made The Step 2 Page
-- Made The Step 3 Page
-- Made The Step 4 Page
 - Created The Footer
 ### Saud Alfaraj
 - Made The English Terms & Condition
