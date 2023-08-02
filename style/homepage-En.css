@@ -175,3 +175,51 @@ body {
    max-width: 500px;
    height: 31vw;
  }
+
+ /* قيمنا */
+
+ .values {
+   text-align: center;
+   margin-top: 20%;
+ }
+
+ .values-p {
+   color: #186DFD;
+   font-size: 28px;
+   font-weight: 500;
+ }
+
+ .values-h1 {
+   color: #1e1e1e;
+   font-size: 28px;
+ }
+
+ .value-cards {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 5%;
+ }
+
+ .value-card {
+   width: 350px;
+   height: 17vw;
+   padding: 10px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 8px;
+ }
+
+ #val-icon {
+   color: #186DFD;
+   font-size: 65px;
+ }
+
+ .value-card h1 {
+   font-size: 28px;
+ }
+
+ .value-card p {
+   font-size: 20px;
+   margin-top: 8px;
+   font-weight: 500;
+   color: rgb(131, 121, 121);
+ }

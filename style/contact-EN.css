@@ -39,6 +39,9 @@
     font-size: xx-large;
 }
 
+input::placeholder {
+    font-family: 'rubik';
+}
 
 main {
     font-family: 'Rubik';

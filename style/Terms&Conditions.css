@@ -1,9 +1,9 @@
 .Terms{
-    height: 1100px;
+    height: 980px;
     width: 500px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     text-align: center;
-    margin: auto;
+    margin: 25px auto;
     border-radius: 30px;
 }
 .top{
@@ -41,5 +41,5 @@ a:hover {
     background-color: var(--main-color);
  }
 p{
-    color: #CCCCCC;
+    color: rgb(131, 121, 121);
 }

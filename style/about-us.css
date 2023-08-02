@@ -115,8 +115,9 @@ body {
  text-align: center;
 }
  #saud {
-    height:35vw;
- }
+   height:37vw;
+   margin-top: -10PX;
+}
 
  #saud h1 {
     margin-top: 5%;
@@ -126,12 +127,12 @@ body {
 
  #saud p {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 5%;
  }
 
  #fahad {
-    height:35vw;
+    height:37vw;
  }
 
  #fahad h1 {
@@ -141,13 +142,13 @@ body {
  }
 
  #fahad p {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 600;
     margin-top: 5%;
  }
 
  #abdullah {
-   height:35vw;
+   height:37vw;
 }
 
 #abdullah h1 {
@@ -221,4 +222,14 @@ body {
 
 #dev1-icon:hover {
     color: #158459;
+}
+
+#dev2-icon {
+   font-size: 40px;
+   color: #7034f4;
+   transition: .25s ease-in-out;
+}
+
+#dev2-icon:hover {
+   color: #602ad4;
 }
