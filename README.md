@@ -23,12 +23,14 @@
 ### Fahad Saad
 - Made The English Terms & Conditions Page
 - Made The Arabic Terms & Conditions Page
+- Made The PowerPoint Presentation
 - Made The English Register Page
 - Made The English Contact Page
 - Made The Arabic Contact Page
 - Made The Steps System Pages
 - Made The English Login Page
 - Made The ReadMe File
+
 - Created The Footer
 ### Abdullah 
 - Internet Supplier
