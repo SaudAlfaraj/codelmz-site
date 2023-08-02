@@ -21,25 +21,26 @@
     <title>بوابة الدخول | كودلِمز</title>
 </head>
 <body dir="rtl">
-        <nav>
-                <a class="logo" href="homepage.html"><img src="../img/CODELMZ.png" alt="logo" width="135"></a>
-                <a class="nav-links" href="homepage.html">الرئيسية</a>
-                <a class="nav-links" href="about-us.html">من نحن</a>
-                <a class="nav-links" href="#">الخدمات</a>
-                <a class="nav-links" href="contact-AR.html">تواصل معنا</a>
-                <div class="nav-button">
-                <a class="lang" href="login-EN.html">EN</a>
-                <a class="sign-btn" href="sign.html">التسجيل</a>
-                </div>
-        </nav>
-
-    <!-- نموذج التسجيل -->
+    <!-- هذا كود الناف يوجد فيه اللينكس كلها و ال لوقو -->
+    <nav>
+        <a class="logo" href="homepage.html"><img src="../img/CODELMZ.png" alt="logo" width="135"></a>
+        <a class="nav-links" href="homepage.html">الرئيسية</a>
+        <a class="nav-links" href="about-us.html">من نحن</a>
+        <a class="nav-links" href="#">الخدمات</a>
+        <a class="nav-links" href="contact-AR.html">تواصل معنا</a>
+        <div class="nav-button">
+            <a class="lang" href="login-EN.html">EN</a>
+            <a class="sign-btn" href="sign.html">التسجيل</a>
+        </div>
+    </nav>
+    <!--  التسجيل بواسطة قوقل --> 
     <form action="" method="post" autocomplete="on">
         <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AXo7B7UbaH6DnXdGrL4W1DmhkHWXR6UmW1MgDG64ZHs8NTvuJjua0hKOJ3O11cWv79I7ZPjojqSE6Q&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1325908380%3A1690933122802948">
-        <div class="sign-google">
-            <h1 id="google-title">التسجيل بواسطة Google</h1>
-        </div>
+            <div class="sign-google">
+                <h1 id="google-title">التسجيل بواسطة Google</h1>
+            </div>
         </a>
+        <!-- هنا بداية الفورم الذي يحتوي على البريد الالكتروني , كلمة المرور -->
         <h1 id="form-head">تسجيل دخول</h1>
         <br>
         <label for="email">البريد الإلكتروني</label>
@@ -48,13 +49,16 @@
         <br>
         <label for="password">كلمة المرور</label>
         <input type="password" name="password" id="password" placeholder="كلمة المرور" required>
+        <!-- هنا زر الانهاء  -->
         <input id="submit" type="submit" value="دخول">
+        <!-- وهنا اذا لم يكون لديك حساب يمكنك الرجوع الى صفحت تسجيل الدخول -->
         <h3>
-             ليس لديك حساب؟<span id="login"><a href="/pages/sign.html"> إنشاء حساب</a></span>
+            ليس لديك حساب؟<span id="login"><a href="/pages/sign.html"> إنشاء حساب</a></span>
         </h3>
     </form>
-       <!-- الفوتر -->
-       <footer  style="margin-top: 12%;">
+    <!-- هذا الفوتر الي نستخدمه في الصفحات العربي او النوع العربي -->
+    <footer  style="margin-top: 12%;">
+        <!-- هذا ال سيكشون الاول فيه ال لوقو ونبذه عن المشوع -->
         <section class="first">
             <img class="logoer" src="../img/CODELMZ.png" width="200" height="200">
             <p>
@@ -64,31 +68,33 @@
                 <br>بكفاءة عالية.
             </p>
         </section>
-    
-            <section class="second" style="margin-top: -50px;">
-                <h1 style="border-bottom: #186DFD solid; width: 110px;">الصفحات</h1>
-                <a href="homepage.html">الصفحة الرئيسية</a>            
-                <a href="contact-AR.html">تواصل معنا</a>            
-                <a href="services.html">الخدمات</a>
-                <a href="about-us.html">من نحن</a>            
-            </section>
-            <section class="second" style="margin-top: -50px;">
-                <h1 style="border-bottom: #186DFD solid; width: 130px;" >روابط اخرى</h1>                    
-                <a href="#">الخصوصية & والأمان</a>
-                <a href="#">الشروط & والأحكام</a>     
-                <a href="contact-AR.html">تواصل معنا</a>            
-                <a style="color: #186DFD;" href="sign.html">التسجيل</a> 
-            </section>
-        </footer>
-        <div class="copyright" style="background-color: white; padding-top: 80px;">
-            <h1 style="color: #9f9ea9; text-align: center; font-size: large;">جميع الحقوق محفوظة لدى مجموعة كودلِمز البرمجية ©2023</h1>
-            <div class="social">
-                <div class="social-icons">
-                    <a href="https://twitter.com/codelmz"><i id="social-icons" class="fa-brands fa-twitter" ></i></a>
-                    <a href="https://twitter.com/codelmz"><i style="padding: 8px 10px;" id="social-icons" class="fa-brands fa-linkedin" ></i></a>
-                    <a href="https://twitter.com/codelmz"><i style="font-size: 19px; padding:11px 9px;" id="social-icons" class="fa-brands fa-discord" ></i></a>
-                </div>
+        <!-- هذا السيكشون الثاني فيه الصفحات وكل شي تحتها -->
+        <section class="second" style="margin-top: -50px;">
+            <h1 style="border-bottom: #186DFD solid; width: 110px;">الصفحات</h1>
+            <a href="homepage.html">الصفحة الرئيسية</a>            
+            <a href="contact-AR.html">تواصل معنا</a>            
+            <a href="services.html">الخدمات</a>
+            <a href="about-us.html">من نحن</a>            
+        </section>
+        <!-- هذا السيكشون الثالث فيه روابط اخرى وكل شي تحتها -->
+        <section class="second" style="margin-top: -50px;">
+            <h1 style="border-bottom: #186DFD solid; width: 130px;" >روابط اخرى</h1>                    
+            <a href="#">الخصوصية & والأمان</a>
+            <a href="#">الشروط & والأحكام</a>     
+            <a href="contact-AR.html">تواصل معنا</a>            
+            <a style="color: #186DFD;" href="sign.html">التسجيل</a> 
+        </section>
+    </footer>
+    <!-- وهذي الكونيرايت فيه الايكونات والحقوق  -->
+    <div class="copyright" style="background-color: white; padding-top: 80px;">
+        <h1 style="color: #9f9ea9; text-align: center; font-size: large;">جميع الحقوق محفوظة لدى مجموعة كودلِمز البرمجية ©2023</h1>
+        <div class="social">
+            <div class="social-icons">
+                <a href="https://twitter.com/codelmz"><i id="social-icons" class="fa-brands fa-twitter" ></i></a>
+                <a href="https://twitter.com/codelmz"><i style="padding: 8px 10px;" id="social-icons" class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://twitter.com/codelmz"><i style="font-size: 19px; padding:11px 9px;" id="social-icons" class="fa-brands fa-discord" ></i></a>
             </div>
         </div>
+    </div>
 </body>
 </html>

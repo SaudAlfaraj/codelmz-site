@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600&family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 /* الأساسيات */
 
-
+/* this is to make everything have no margin no padding ... */
  * {
     box-sizing: border-box;
     padding: 0;
@@ -10,13 +10,13 @@
     scroll-behavior: smooth;
     text-decoration: none;
  }
-
+/* this is for the font in this page */
  body {
     font-family: 'Rubik';
  }
 
  
-/* صفحة التسجيل */
+/* this is the google/register with google and its hover too*/
 
 .sign-google {
     background-image: url('/img/Google.png');
@@ -34,7 +34,6 @@
     cursor: pointer;
     transition: .25s ease-in-out;
 }
-
 #google-title {
     text-align: center;
     width: 100%;
@@ -43,12 +42,11 @@
     color: #0A0B10;
     transition: .25s ease-in-out;
 }
-
 .sign-google:hover {
     background-color: whitesmoke;
     color: #186DFD;
 }
-
+/* this is where we edited the entire form */
 form {
     margin: 5% auto;
     padding: 50px 50px 50px 50px;
@@ -60,13 +58,11 @@ form {
     transition: .25s ease;
     animation: slide .5s;
 }
-
-
+/* this is the animation we used in the form to make it slide in  */
 @keyframes slide {
     from {transform: translateY(50%);}
     to {transform: translateY(0%);}
 }
-
 #form-head {
     font-size: 30px;
     font-weight: 500;
@@ -75,7 +71,7 @@ form {
     margin-top: 5px;
     margin-bottom: 15px;
 }
-
+/* this is where we edited the inputs width height border... */
 input {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -86,15 +82,14 @@ input {
     margin-bottom: 10.2px !important;
     font-family: 'Rubik';
 }
-
+/* this is the label editor we gave it a margin right */
 label {
     margin-right: 5px;
 }
-
 input:focus { /* بعد الضغط على خانة الكتابة */
 outline: 2px solid #186DFD; /*يختفي البوردر الذي حوالين الخانة*/
 }
-
+/* this is repeated for each input so they have different icons but they all have the same height width ... */
 #first-name {
     background-image: url('/img/user.png');
     background-repeat: no-repeat;
@@ -137,14 +132,15 @@ outline: 2px solid #186DFD; /*يختفي البوردر الذي حوالين ا
     padding-right: 45px;
     background-position: right 15px center;
 }
-
+/* this is the terms button/a we just changed it hover */
 #terms {
     color: #186DFD;
 }
+/* here is its class we just made it stay in the middle */
 .terms-main {
     text-align: center;
 }
-
+/* this is where we edited the submit button color border hover focus... */
 #submit {
     background-color: #186DFD;
     color: white;
@@ -162,13 +158,13 @@ outline: 2px solid #186DFD; /*يختفي البوردر الذي حوالين ا
 #submit:focus {
     outline: none;
 } 
-
+/* this is where we edited every h3 in the siqn in page */
 h3 {
     text-align: center;
     font-weight: 500;
 }
 
-
+/* this i sthe login a editor hover*/
 #login {
     color: #186DFD;
     text-decoration: underline -5px;
@@ -178,7 +174,7 @@ h3 {
 #login:hover {
     color: #1d63da;
 }
-
+/* this is where we edited every hr */
 hr {
     border: 1px solid #ccc;
     margin-top: 15px;

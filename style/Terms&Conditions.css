@@ -1,3 +1,4 @@
+/* this the term editer we changed it size and other little stuff */
 .Terms{
     height: 980px;
     width: 500px;
@@ -6,28 +7,27 @@
     margin: 25px auto;
     border-radius: 30px;
 }
+/* this is the top editer we made it into a flexbox */
 .top{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
 }
-img{
-    border: solid 2px;
-    border-radius: 50%;
-    padding: 5px;
-    margin-right: 20px;
-}
+/* this is where we edited the all of the p wew changed its size and color */
 .Terms p{
     margin: 30px;
     font-size: large;
     font-weight: 500;
+    color: rgb(131, 121, 121);
 }
+/* this is where we edited all h1 by making them have a margin and changed color and size */
 h1{
     font-size: 35px;
     margin: 10px;
     color: #186bfb;
 }
+/* this is the a/the go back arrow we made it have a color and padding... */
 a{
     border: solid 1px #186bfb;
     color: #186bfb;
@@ -36,10 +36,8 @@ a{
     border-radius: 50%;
     margin: 10px;
 }
+/* this is the hover for it */
 a:hover {
     color: white;
     background-color: var(--main-color);
  }
-p{
-    color: rgb(131, 121, 121);
-}

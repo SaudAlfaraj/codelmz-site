@@ -3,6 +3,10 @@
 /* الأساسيات */
 
 
+
+/* IMPORTANT this is the same css used in sign.css but the only diffrent 
+is that in the input is changed from left to right so if you want a detailed one go to sign.css
+IMPORTANT */
  * {
     box-sizing: border-box;
     padding: 0;
