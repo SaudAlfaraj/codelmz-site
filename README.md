@@ -21,8 +21,8 @@
 - Made The Arabic Home Page
 - Created The Navigation Bar
 ### Fahad Saad
-- Made The English Terms & Conditions
-- Made The Arabic Terms & Conditions
+- Made The English Terms & Conditions Page
+- Made The Arabic Terms & Conditions Page
 - Made The English Register Page
 - Made The English Contact Page
 - Made The Arabic Contact Page
