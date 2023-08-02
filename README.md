@@ -30,8 +30,8 @@
 - Made The Steps System Pages
 - Made The English Login Page
 - Made The ReadMe File
-
 - Created The Footer
 ### Abdullah 
 - Internet Supplier
+- Idea Supplier
 - Public Talker
