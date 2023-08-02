@@ -48,12 +48,21 @@
 }
 
 form {
-    margin: auto;
+    margin: 5% auto;
     padding: 50px 50px 50px 50px;
     background-color: rgb(255, 255, 255);
     max-width: 400px;
     border-radius: 15px;
+    border: 1.3px solid #ccc;
     box-shadow: rgba(190, 190, 197, 0.2) 0px 7px 29px 0px;
+    transition: .25s ease;
+    animation: slide .5s;
+}
+
+
+@keyframes slide {
+    from {transform: translateY(50%);}
+    to {transform: translateY(0%);}
 }
 
 #form-head {

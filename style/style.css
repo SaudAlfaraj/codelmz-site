@@ -96,73 +96,38 @@ nav{
    width: 100px;
 }
 
-footer {
-   width: 100%;
-}
 
-.right-footer {
-   width: 30%;
-   padding-top: 30px;
-   padding-right: 40px;
-}
-
-.right-footer img {
-   margin-bottom: -8%;
-}
-
-.right-footer p {
-   color: rgb(106, 97, 97);
-   font-weight: 500;
-}
-
-.social-footer {
-   display: flex;
-   justify-content: center;
-}
-
-.social-footer a {
-   padding: 1px;
-   background-color: red;
-}  
-
-#social-ftr {
-   font-size: 11px;
-   color: rgba(92, 84, 84, 0.562);
-   padding: 1px;
-}
 footer{
    background-color: white;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
    display: flex;
    align-items: center;
    justify-content: space-around;
-   margin-top: 50px;
+   margin-top: 20%;
    border-radius: 15px 15px 0px 0px;
+   border-bottom: 1.6px solid #d2d2d6;
 }
 footer p{
-   color: #CCCCCC;
-   font-size: 16px;
+   color: #91909d;
+   font-size: 18px;
    font-weight: 800;
 }
 footer a{
-   color: #CCCCCC;
+   color: #91909d;
+   width: fit-content;
+}
+
+footer h1 {
+   font-size: x-large;
 }
 .first{
    text-align: start;
    height: 400px;
    width: 400px;
 }
-.socials-footer{
-   margin-top: 10px;
-}
-.socials-footer img{
-   border: solid 2px black;
-   border-radius: 50%;
-   padding: 5px;
-   margin-top: 20px;
-}
+
 .second{
-   margin: 10px;
+   margin: 100px 10px 0 10px;
    display: flex;
    flex-direction: column;
    font-size: larger;
@@ -171,12 +136,43 @@ footer a{
    margin-top: 10px;
 }
 .logoer{
+   margin-top: 5%;
    margin-bottom: -60px;
    margin-left: -22px;
 }
 footer a{
    font-weight: 900;
+   transition: .20s ease-in-out;
 }
 footer a:hover{
    color: #186bfb;
 }
+
+.social {
+   display: flex;
+   justify-content: center;
+}
+
+.social-icons {
+   margin: 15px 0;
+   text-align: center;
+   font-size: 25px;
+   color: #9f9ea9;
+   margin-bottom: 10px;
+}
+
+#social-icons {
+   color: #9f9ea9;
+   border: 1.8px solid #9f9ea9;
+   padding: 8px 8.8px;
+   border-radius: 50%;
+   text-align: center;
+   transition: .20s ease-in;
+}
+
+#social-icons:hover {
+   color: white;
+   border: 1.8px solid #186bfb;
+   background-color: #186bfb;
+}
+

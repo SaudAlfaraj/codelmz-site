@@ -126,17 +126,19 @@ body {
     min-width: 300px;
     margin-top: 4%;
     border-radius: 10px;
-    height: 28vw;
+    height: 30vw;
     min-height: auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: .25s ease-in-out;
- }
- 
- .card:hover {
-    transform: scale(1.09);
+    border-top: 8px solid #186DFD;
+   }
+   
+   .card:hover {
+      transform: scale(1.09);
  }
  .card-img {
     height: 180px;
+    margin-top: 2%;
  }
 
  .h1-card {
@@ -150,6 +152,7 @@ body {
     color: rgb(131, 121, 121);
     margin-bottom: 8%;
     margin-top: 5%;
+    font-size: 17px;
  }
 
  .card-btn {
@@ -158,8 +161,57 @@ body {
     background-color: #186DFD;
     color: white;
     transition: .25s ease-in-out;
+    font-size: large;
  }
 
  .card-btn:hover {
     background-color: #1b5fd3;
+ }
+
+ /* قيمنا */
+
+ .values {
+   text-align: center;
+   margin-top: 20%;
+ }
+
+ .values-p {
+   color: #186DFD;
+   font-size: 28px;
+   font-weight: 500;
+ }
+
+ .values-h1 {
+   color: #1e1e1e;
+   font-size: 28px;
+ }
+
+ .value-cards {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 5%;
+ }
+
+ .value-card {
+   width: 350px;
+   height: 15vw;
+   padding: 10px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 8px;
+ }
+
+ #val-icon {
+   color: #186DFD;
+   font-size: 65px;
+ }
+
+ .value-card h1 {
+   font-size: 28px;
+ }
+
+ .value-card p {
+   font-size: 20px;
+   margin-top: 8px;
+   font-weight: 500;
+   color: rgb(131, 121, 121);
  }

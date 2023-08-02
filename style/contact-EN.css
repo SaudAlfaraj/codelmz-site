@@ -12,19 +12,20 @@
     to {transform: translateY(0%);}
 }
 
-.social {
+
+.social-contact {
     display: flex;
     align-items: center;
     gap: 15px;
     margin: 10px;
 }
 
-.social p {
+.social-contact p {
     color: rgb(131, 121, 121);
     font-size: small;
 }
 
-.social h1 {
+.social-contact h1 {
     font-size: medium;
 }
 
