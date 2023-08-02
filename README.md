@@ -11,8 +11,6 @@
   
 ## Member:
 ### Saud Alfaraj
-- Made The English Terms & Conditions
-- Made The Arabic Terms & Conditions
 - Made The English Services Page
 - Made The English About-Us page
 - Made The Arabic About-Us page
@@ -23,6 +21,8 @@
 - Made The Arabic Home Page
 - Created The Navigation Bar
 ### Fahad Saad
+- Made The English Terms & Conditions
+- Made The Arabic Terms & Conditions
 - Made The English Register Page
 - Made The English Contact Page
 - Made The Arabic Contact Page
